@@ -1,16 +1,15 @@
 # Compiler
 CC = g++
-TARGET = person
+TARGET = student
 
 all: $(TARGET)
 
-$(TARGET): person.cpp
-	$(CC) person.cpp -o $(TARGET)
+$(TARGET): student.cpp
+	$(CC) student.cpp -o $(TARGET)
 
 clean:
 	rm -f $(TARGET)
 
 test: $(TARGET)
 	bash test.sh
-
 
