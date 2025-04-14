@@ -1,0 +1,4 @@
+--- Person Details ---
+Name: Alice Smith
+Age: 30
+Country: Canada
