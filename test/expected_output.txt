@@ -1,4 +1,10 @@
---- Person Details ---
 Name: Alice Smith
-Age: 30
-Country: Canada
+Class: 10A
+Roll Number: 101
+Marks: 92
+Grade: A+
+Name: Bob Lee
+Class: 11B
+Roll Number: 102
+Marks: 78
+Grade: B
