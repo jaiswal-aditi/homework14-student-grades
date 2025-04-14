@@ -3,10 +3,10 @@
 echo "Running tests..."
 echo
 
-./person < test/input.txt > test/actual_output.txt
+./student < test/input.txt > test/actual_output.txt
 
-# Strip all whitespace and match only final output
-filtered=$(grep -E "Name:|Age:|Country:" test/actual_output.txt | tr -d '[:space:]')
+# Normalize the output (remove spaces, newlines, etc.)
+normalized_output=$(grep -E "Name:|Class:|Roll|Marks:|Grade:" test/actual_output.txt | tr -d '[:space:]')
 expected=$(tr -d '[:space:]' < test/expected_output.txt)
 
 if [ $? -eq 0 ]; then
@@ -16,11 +16,11 @@ else
   exit 1
 fi
 
-if [[ "$filtered" == "$expected" ]]; then
+if [[ "$normalized_output" == "$expected" ]]; then
   echo "✅ Test passed"
 else
   echo "❌ Test failed"
   echo "Expected: $expected"
-  echo "Got     : $filtered"
+  echo "Got     : $normalized_output"
   exit 1
 fi
