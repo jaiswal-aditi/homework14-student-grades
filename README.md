@@ -1,12 +1,12 @@
 # ICS 212
-## Lab - Week 14
+## Homework - Week 14
 
 
 ### Instructions:
 - Update the program files following instructions provided in the assignment pdf (uploaded on Laulima) and in the program comments.
 
 ### Steps to submit changes:
-1. Click on person.cpp file to open it
+1. Click on main.cpp file to open it
 2. Click the pencil icon to edit file on the top right
 3. Update the file with your code following homework assignment description
 4. Once you are ready to submit your changes, click on the green "Commit changes..." button on the top right
