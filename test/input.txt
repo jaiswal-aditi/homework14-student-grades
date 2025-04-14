@@ -1,7 +1,13 @@
-
-Alice Smith
+2
+Alice
+Smith
+10A
+101
+92
+Bob
+Lee
+11B
 -5
-abc
-30
-
-Canada
+102
+105
+78
